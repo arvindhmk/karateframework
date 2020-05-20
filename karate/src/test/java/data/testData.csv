@@ -1,3 +1,4 @@
-name	salary	age
-kumar	243243	22
-narsh	12313	33
+name,salary,age
+user1,2344,11
+user2,23234,22
+user3,32432,23

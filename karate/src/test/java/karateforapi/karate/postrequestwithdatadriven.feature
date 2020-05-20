@@ -2,7 +2,7 @@ Feature: Post request using karate - data driven
 
 Background:
 
-And print data
+#And print data
 Given url 'http://dummy.restapiexample.com'
 
 
@@ -16,17 +16,17 @@ Then print 'response1==>', response
 
 Examples:
 
-#|read('../../data/testData.csv')|
+|read('../../data/testData.csv')|
 
-|name|salary|age|
-|user1|2323|22|
-|user2|2312|33|
-|user3|10000|44|
-|user4|12222|55|
-|user5|13333|22|
-|user6|14444|66|
-|user7|15555|77|
-|user8|16666|88|
-|user9|17777|99|
-|user10|1888|55|
+#|name|salary|age|
+#|user1|2323|22|
+#|user2|2312|33|
+#|user3|10000|44|
+#|user4|12222|55|
+#|user5|13333|22|
+#|user6|14444|66|
+#|user7|15555|77|
+#|user8|16666|88|
+#|user9|17777|99|
+#|user10|1888|55|
 
