@@ -15,7 +15,7 @@ Background:
 	And match response == expectedoutput[0]
 	
 	
-	Scenario:Api test for request user2 details
+	Scenario: Api test for request user2 details
 	
 	Given url "https://reqres.in/api/users/3"
 	When method GET

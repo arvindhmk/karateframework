@@ -2,7 +2,6 @@ Feature: Post request using karate - data driven
 
 Background:
 
-#And print data
 Given url 'http://dummy.restapiexample.com'
 
 
