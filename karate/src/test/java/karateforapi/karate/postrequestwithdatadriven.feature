@@ -1,8 +1,9 @@
 Feature: Post request using karate - data driven
 
 Background:
-
+* configure ssl = true
 Given url 'http://dummy.restapiexample.com'
+
 
 
 Scenario Outline: Create user details
